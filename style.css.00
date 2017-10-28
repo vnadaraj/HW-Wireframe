@@ -1,8 +1,10 @@
+div.container {
+	/*color: #777;*/
+}
 
 body {
-	padding-right: 8%;
-	padding-bottom: 7%;
 	padding-left: 10%;
+	padding-right: 8%;
 	width: 960px;
 	background-color: #777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -11,7 +13,7 @@ body {
 
 header, nav, footer {
 	margin: 10px;
-	padding: 30px;
+	padding: 25px;
 	color: #777;
 	background-color: #ebebeb;
 	clear: both;
@@ -20,52 +22,46 @@ header, nav, footer {
 
 section {
 	margin: 10px;
-	margin-bottom: 20px;
 	width: 495px;
 	color: #777;
 	background-color: #ebebeb;
 	clear: left;
 	text-align: center;
 	float: left;
-	padding: 25px;
-	padding-right: 5px;
-	padding-bottom: 20px;
-	padding-left: 5px;
 }
 
 aside {
 	margin: 10px;
-	width: 38%;
-	height: 241px;
+	width: 43%;
 	color: #777;
 	background-color: #ebebeb;
 	text-align: center;
 	float: right;
-	padding: 25px;
 }
 
 article {
 	margin-top: 25px;
 	margin-right: 5px;
-	margin-bottom: -10px;
+	margin-bottom: 5px;
 	margin-left: 5px;
-	padding: 18px;
-	padding-bottom: 30px;
+	padding: 3px;
 	color: #ebebeb;
 	background-color: #777
+}
+
+.clear {
+	clear: ;
 }
 
 h1, p {
 	background-color: #ebebeb;
 	color: #777;
-	padding: inherit;
-	padding-bottom: 20px;
-	margin-top: 20px;
-	margin-left: 1px;
-	margin-right: 10px;
-	margin-bottom: -10px;
 }
 
-<!-- Not sure yet how to set up styles in CSS for a .clear element -->
+h2 {
 
-<!-- Not sure yet how to use display, overflow and clear properties in CSS-->
+}
+
+h3 {
+
+}
